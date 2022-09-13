@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/solana-clone/static/css/main.690511f4.css",
+    "main.js": "/solana-clone/static/js/main.e92b3a9a.js",
+    "index.html": "/solana-clone/index.html",
+    "main.690511f4.css.map": "/solana-clone/static/css/main.690511f4.css.map",
+    "main.e92b3a9a.js.map": "/solana-clone/static/js/main.e92b3a9a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.690511f4.css",
+    "static/js/main.e92b3a9a.js"
+  ]
+}
