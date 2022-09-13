@@ -1,0 +1,180 @@
+
+.main-div{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    margin-top: 7px;
+    margin-bottom: 8px;
+}
+
+.dropdown-main-div{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    opacity: 1;
+}
+
+
+
+
+.first-div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 19px;
+    margin-top: 30px;
+    
+}
+
+.second-div{
+    margin-top: 30px;
+}
+
+.third-div{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.ul-div{
+    margin-bottom: 15px;
+}
+
+.res, .learn, .guides {
+    margin-bottom: 25px;
+    
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: -11px;
+}
+
+
+
+p{
+    color: white;
+    font-family: "Inter";
+}
+
+.second-div > .learning{
+    display: flex;
+    flex-direction: column;
+}
+
+.second-div > .learning > ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.first-div-child, .learning >h1, .careers > div> h1, .third-div > h1, .first-div > h1{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter";
+}
+
+.car-div{
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+
+.car-div > p{
+    margin-top: 6px;
+    margin-left: 10px;
+    font-size: 14px;
+    border: 1px solid black;
+    background-color: rgb(102, 102, 185);
+    border-radius: 6px;
+    padding: 4px;
+}
+
+.network-main-div{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    opacity: 1;
+}
+
+h4{
+    color: white;
+    font-family: "Inter";
+    margin-bottom: 35px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 8px;
+    margin-top: 30px;
+}
+
+.net-first-div{
+    margin-left: 20px;
+    width: 400px;
+}
+
+.status{
+    width: 400px;
+}
+
+.interact{
+    margin-right: 30px;
+    width: 400px;
+}
+
+.com-main-div{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    opacity: 1;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+
+}
+
+.com-main-div > div{
+    width: 380px;
+}
+
+.com-main-div > div:nth-child(1){
+    margin-left: 27px;
+}
+
+.com-main-div > div:nth-child(3){
+    margin-right: 27px;
+}
+
+.button-div{
+    display: flex;
+    border-bottom: 1px solid gray;
+    width: auto;
+    height: 65px;
+}
+
+.button-p{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 12px;
+    background-color: rgb(102, 102, 185);
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 2px;
+}
+.heading-col{
+    border: 0;
+}
+
+.join{
+    margin-top: 30px;
+}
+

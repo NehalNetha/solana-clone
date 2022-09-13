@@ -1,0 +1,140 @@
+body{
+    margin: 0px;
+    background-color: black;
+}
+
+h1{
+    font-size: 10;
+}
+
+.nav-h{
+    font-size: 24px;
+    color: white;
+    margin-left: 40px;
+    font-weight:900;
+}
+
+li{
+    list-style-type: none;
+    color: white;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+li:hover{
+    color: #42ba96
+}
+
+li:nth-child(5){
+    margin-right: 20px;
+}
+
+ul{
+    display: flex;
+    
+}
+.material-symbols-outlined {
+    position: relative;
+    top: 7px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+/* 
+.main-div{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    margin-top: 7px;
+    margin-bottom: 8px;
+}
+
+.dropdown-main-div{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+
+
+
+.first-div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 19px;
+    margin-top: 30px;
+    
+}
+
+.second-div{
+    margin-top: 30px;
+}
+
+.third-div{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.ul-div{
+    margin-bottom: 15px;
+}
+
+.res, .learn, .guides {
+    margin-bottom: 25px;
+    
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: -11px;
+}
+
+
+
+p{
+    color: white;
+    font-family: "Inter";
+}
+
+.second-div > .learning{
+    display: flex;
+    flex-direction: column;
+}
+
+.second-div > .learning > ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.first-div-child, .learning >h1, .careers > div> h1, .third-div > h1, .first-div > h1{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter";
+}
+
+.car-div{
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+
+.car-div > p{
+    margin-top: 6px;
+    margin-left: 10px;
+    font-size: 14px;
+    border: 1px solid black;
+    background-color: rgb(102, 102, 185);
+    border-radius: 6px;
+    padding: 4px;
+} */
+

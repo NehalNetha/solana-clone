@@ -1,0 +1,168 @@
+.trans-h{
+    font-size: 16px;
+    font-family: "Inter";
+    max-width: 20rem;
+}
+
+.transaction-main-div{
+    display: flex;
+    margin-top: 50px;
+    background-color: rgb(20, 241, 149);
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.main-one{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-two{
+    display: flex;
+    flex-direction: column;
+}
+
+ .transac-3{
+    margin-left: 30px;
+    display: flex;
+    
+}
+
+.transac-1{
+    margin-left: 30px;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.transac-2{
+    margin-left: 20px;
+    display: flex;
+}
+
+
+.transac-4{
+    margin-left: 20px;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+
+
+.tot{
+    color: black;
+    margin-left: 100px;
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 25px;
+
+    
+}
+
+.validator{
+    margin-left: 60px;
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+    margin-left: 350px;
+}
+
+.sec{
+    margin-right: 40px;
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+    margin-left: 270px;
+}
+.avg{
+    color: black;
+    margin-top: 25px;
+    margin-left: 230px;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+}
+
+@media (max-width:1000px){
+    .transaction-main-div{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; 
+        width: 100%;    
+    }
+    .transac-1{
+        display: flex;
+        flex-direction: column;
+        height: 200px;    
+        border: none;
+        margin-bottom: -90px;
+    }
+    .transac-2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        margin-top: -20px;
+    }
+    .transac-3{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .transac-4{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;        margin-top: -20px;
+        border: none;
+    }
+    .transaction-main-div > div > div> p{
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-top: -10px;
+        
+        padding-bottom: 10px;
+        border-bottom: 1px solid black;
+    }
+    .sec{
+        border-bottom: 1px solid black;
+    }
+    
+}
+
+.join-h5{
+    color: white;
+    font-family: "Inter";
+    font-size: 50px;
+    
+}
+
+.transac-join{
+    width: 400px;
+}
+
+.transaction-second-main-div{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+} 
+
+.explore{
+    width: 600px;
+    margin-top: 80px;
+}
+
+.solana-explore{
+    font-size: 20px;
+}
+
+.explore-button{
+    background-color: rgb(102, 102, 185);
+    font-size: 16px;
+    padding: 18px;
+    border-radius: 25px;
+    color: white;
+    margin-top: 20px;
+    transition: transform 250ms;
+}
+
+.explore-button:hover{
+    transform: translateY(-8px);
+}

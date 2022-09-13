@@ -1,0 +1,64 @@
+.header-h{
+    color: white;
+    font-family: "Inter";
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.fast{
+    color: white;
+    font-family: "Inter";
+    font-size: 80px;
+    margin-top: -60px;
+}
+
+.header-main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 120px;
+    width: 600px;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+.header-but{
+    display: flex;
+    margin-top: -28px;
+    margin-left: -180px;
+}
+
+.header-but-1{
+    margin-right: 10px;
+    font-size: 16px;
+    background-color: rgb(20, 241, 149);
+    padding: 20px 25px;
+    border-radius: 30px;
+    transition: transform 250ms;
+}
+
+.header-but-2{
+    font-size: 16px;
+    background-color: rgb(20, 241, 149);
+    padding: 20px 25px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    transition: transform 250ms;
+    
+}
+
+.header-but-1:hover {
+    transform: translateY(-8px);
+}
+
+.header-but-2:hover{
+    transform: translateY(-8px);
+    background-color: white;
+    color: black;
+}
+
+.header-p{
+    font-size: 20px;
+}
